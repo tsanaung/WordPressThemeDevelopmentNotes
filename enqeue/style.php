@@ -1,5 +1,6 @@
 /**
 * functions.php
+* random version number should be removed in production
 **/
 
 //Register
