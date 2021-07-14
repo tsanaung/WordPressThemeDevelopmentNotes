@@ -1,6 +1,7 @@
 /**
 * header.php or anywhere you want to put it in
 * Credit: https://www.usablewp.com/learn-wordpress/home-page/how-to-add-the-custom-logo-to-our-wordpress-website/
+* Learn WordPress Theme Development at https://www.usablewp.com/learn-wordpress-theme-development/
 **/
 
 <?php if( has_custom_logo() ):  ?>
