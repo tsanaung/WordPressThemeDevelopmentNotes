@@ -1,0 +1,44 @@
+/*!
+Theme Name: LovelyMyanmar
+Theme URI: http://underscores.me/
+Author: Tsan Aung
+Author URI: https://tsanaung.github.io
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: lovelymyanmar
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+LovelyMyanmar is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+#sticat {
+	margin-top: 3.25rem;
+    /*position: fixed;*/
+	width: 100%;
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	white-space: nowrap;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch; /* Hide scrollbar */
+	-ms-overflow-style: -ms-autohiding-scrollbar; /* Hide scrollbar in IE */
+	scrollbar-width: none; /* Hide scrollbar in firefox */
+}
+
+#sticat::-webkit-scrollbar {
+	display: none; /* Hide scrollbar */
+}
+
+#sticat a {
+	text-decoration: none;
+	color: #fff;
+}
