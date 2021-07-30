@@ -14,3 +14,10 @@ function lmm_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'lmm_scripts' );
+
+// Smart Sticky Menu hide/show at scroll
+
+function lmm_sticat_menu() {
+	register_nav_menu('smart-nav',__( 'Smart Sticky Menu' ));
+}
+add_action( 'init', 'lmm_sticat_menu' );
