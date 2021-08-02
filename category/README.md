@@ -34,5 +34,5 @@ The following list is objects of each category that you can print:</p>
 <p><code>&nbsp $category_name = $the_cat[0]->cat_name; </code></p>
 <p><code>&nbsp $category_link = get_category_link( $the_cat[0]->cat_ID ); </code></p>
 <p><code>?> </code></p>
-<p><code> <a href="<?php echo $category_link ?>" class="button is-small is-primary is-rounded"> <?php echo $category_name ?> </a></code></p>
+<p><code> < a href= " < ? p h p echo $category_link ? > " class = " button is-small is-primary is-rounded "> < ? p h p echo $category_name ? > </a></code></p>
 <p>Trick: you can make category cover photo inserting the image link as description easily :) </p>
