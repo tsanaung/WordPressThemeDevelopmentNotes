@@ -30,9 +30,9 @@ The following list is objects of each category that you can print:</p>
 <p><code>< ? p h p</code></p>
 <p><code>//This is example of echoing category name and link </code></p>
 <p><code>//You can see this example @https://github.com/tsanaung/WordPressThemeDevelopmentNotes/blob/master/category/get_category_name_and_link.php </code></p>
-<p>&nbsp<code>&nbsp $the_cat = get_the_category(); </code></p>
-<p>&nbsp<code>&nbsp $category_name = $the_cat[0]->cat_name; </code></p>
-<p>&nbsp<code>&nbsp $category_link = get_category_link( $the_cat[0]->cat_ID ); </code></p>
+<p><code>&nbsp $the_cat = get_the_category(); </code></p>
+<p><code>&nbsp $category_name = $the_cat[0]->cat_name; </code></p>
+<p><code>&nbsp $category_link = get_category_link( $the_cat[0]->cat_ID ); </code></p>
 <p><code>?> </code></p>
-<p>&nbsp<code> <a href="<?php echo $category_link ?>" class="button is-small is-primary is-rounded"> <?php echo $category_name ?> </a></code></p>
+<p><code> <a href="<?php echo $category_link ?>" class="button is-small is-primary is-rounded"> <?php echo $category_name ?> </a></code></p>
 <p>Trick: you can make category cover photo inserting the image link as description easily :) </p>
