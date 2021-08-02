@@ -3,10 +3,8 @@
 <br/>
 <h1>Syntax <code>get_the_category( $id )</code></h1>
 <h1>Parameters</h1>
-<code>
-Parameter: $id	<br/>
-Details: (int) (Optional) default to current post ID. The post ID.
-</code>
+<code>Parameter: $id</code><br/>
+<code>Details: (int) (Optional) default to current post ID. The post ID.</code>
 <p>The get_the_category() returns an array, which means that it can't be directly echo the value returned. 
 The following list is objects of each category that you can print:</p>
 <ul>Objects
@@ -29,14 +27,12 @@ The following list is objects of each category that you can print:</p>
 <li>category_parent</li>
 </ul>
 <h3>Usage:</h3>
-<code>
-<?php <br/>
-//This is example of echoing category name and link <br/>
-//You can see this example @https://github.com/tsanaung/WordPressThemeDevelopmentNotes/blob/master/category/get_category_name_and_link.php <br/>
-&nbsp $the_cat = get_the_category(); <br/>
-&nbsp $category_name = $the_cat[0]->cat_name; <br/>
-&nbsp $category_link = get_category_link( $the_cat[0]->cat_ID ); <br/>
-?> <br/>
-&nbsp <a href="<?php echo $category_link ?>" class="button is-small is-primary is-rounded"> <?php echo $category_name ?> </a>
-</code>
+<code><?php</code>
+<code>//This is example of echoing category name and link </code>
+<code>//You can see this example @https://github.com/tsanaung/WordPressThemeDevelopmentNotes/blob/master/category/get_category_name_and_link.php </code>
+&nbsp<code>&nbsp $the_cat = get_the_category(); </code>
+&nbsp<code>&nbsp $category_name = $the_cat[0]->cat_name; </code>
+&nbsp<code>&nbsp $category_link = get_category_link( $the_cat[0]->cat_ID ); </code>
+<code>?> </code>
+&nbsp<code> <a href="<?php echo $category_link ?>" class="button is-small is-primary is-rounded"> <?php echo $category_name ?> </a></code>
 <p>Trick: you can make category cover photo inserting the image link as description easily :) </p>
