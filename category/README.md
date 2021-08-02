@@ -27,12 +27,12 @@ The following list is objects of each category that you can print:</p>
 <li>category_parent</li>
 </ul>
 <h3>Usage:</h3>
-<code><?php</code>
-<code>//This is example of echoing category name and link </code>
-<code>//You can see this example @https://github.com/tsanaung/WordPressThemeDevelopmentNotes/blob/master/category/get_category_name_and_link.php </code>
-&nbsp<code>&nbsp $the_cat = get_the_category(); </code>
-&nbsp<code>&nbsp $category_name = $the_cat[0]->cat_name; </code>
-&nbsp<code>&nbsp $category_link = get_category_link( $the_cat[0]->cat_ID ); </code>
-<code>?> </code>
-&nbsp<code> <a href="<?php echo $category_link ?>" class="button is-small is-primary is-rounded"> <?php echo $category_name ?> </a></code>
+<code><?php</code><br/>
+<code>//This is example of echoing category name and link </code><br/>
+<code>//You can see this example @https://github.com/tsanaung/WordPressThemeDevelopmentNotes/blob/master/category/get_category_name_and_link.php </code><br/>
+&nbsp<code>&nbsp $the_cat = get_the_category(); </code><br/>
+&nbsp<code>&nbsp $category_name = $the_cat[0]->cat_name; </code><br/>
+&nbsp<code>&nbsp $category_link = get_category_link( $the_cat[0]->cat_ID ); </code><br/>
+<code>?> </code><br/>
+&nbsp<code> <a href="<?php echo $category_link ?>" class="button is-small is-primary is-rounded"> <?php echo $category_name ?> </a></code><br/>
 <p>Trick: you can make category cover photo inserting the image link as description easily :) </p>
