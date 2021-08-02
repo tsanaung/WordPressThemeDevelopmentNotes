@@ -27,7 +27,7 @@ The following list is objects of each category that you can print:</p>
 <li>category_parent</li>
 </ul>
 <h3>Usage:</h3>
-<p><code><?php</code></p>
+<p><code>< ? p h p</code></p>
 <p><code>//This is example of echoing category name and link </code></p>
 <p><code>//You can see this example @https://github.com/tsanaung/WordPressThemeDevelopmentNotes/blob/master/category/get_category_name_and_link.php </code></p>
 <p>&nbsp<code>&nbsp $the_cat = get_the_category(); </code></p>
