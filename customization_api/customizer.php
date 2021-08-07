@@ -1,7 +1,8 @@
+<?php
 /**
 * Create section, settings and control
 **/
-function your_theme_new_customizer_settings($wp_customize) {
+function lovelymyanmar_new_customizer_settings($wp_customize) {
 	// Add Section
 	$wp_customize->add_section('lovelymyanmar_fb_og', array(
 		'title' => 'Social Integration',
@@ -44,4 +45,5 @@ function your_theme_new_customizer_settings($wp_customize) {
 	'description' => 'It\'s not related with IA and it will be display as og tag for SEO',
 	) ) );
 }
-add_action('customize_register', 'your_theme_new_customizer_settings');
+add_action('customize_register', 'lovelymyanmar_new_customizer_settings');
+?>
