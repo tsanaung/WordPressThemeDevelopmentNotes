@@ -1,6 +1,6 @@
 /**
 * Create section, settings and control
-*/
+**/
 function your_theme_new_customizer_settings($wp_customize) {
 	// Add Section
 	$wp_customize->add_section('lovelymyanmar_fb_og', array(
