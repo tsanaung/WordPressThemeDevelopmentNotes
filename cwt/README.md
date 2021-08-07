@@ -4,4 +4,4 @@
 
 Screenshot
 <img src="https://raw.githubusercontent.com/tsanaung/WordPressThemeDevelopmentNotes/master/cwt/screenshot.png"/>
-<img src="https://raw.githubusercontent.com/tsanaung/WordPressThemeDevelopmentNotes/master/cwt/localhos.png" style="width: 50vw; height: auto;" />
+<img src="https://raw.githubusercontent.com/tsanaung/WordPressThemeDevelopmentNotes/master/cwt/localhos.png" style="width: 50vw !important; height: auto;" />
