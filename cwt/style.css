@@ -3,14 +3,14 @@ Theme Name: LovelyMyanmar
 Theme URI: http://underscores.me/
 Author: Tsan Aung
 Author URI: https://tsanaung.github.io
-Description: Description
+Description: Fresh, Clean, Minimalist, Modern, Responsive & Unusual WordPress theme. Warning! Custom post types are not supported.
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: lovelymyanmar
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tags: Bulma CSS Framework, custom-background, custom-logo, custom-menu, featured-images, facebook like, facebook comments, social shares, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned.
@@ -19,15 +19,22 @@ LovelyMyanmar is based on Underscores https://underscores.me/, (C) 2012-2020 Aut
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 */
-
+body header {background-color: hsl(0, 0%, 96%); width: 100%; overflow-wrap: break-word !important;}
+i.fa,
+i.fas {
+  font-weight: 900;
+}
 
 /**
  * Header 
  **/
- 
-#sticat {
+a {
+	color: hsl(204, 86%, 53%);
+}
+
+.sticat {
+	clear: both;
 	margin-top: 3.25rem;
-    /*position: fixed;*/
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -36,6 +43,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 	-webkit-overflow-scrolling: touch; /* Hide scrollbar */
 	-ms-overflow-style: -ms-autohiding-scrollbar; /* Hide scrollbar in IE */
 	scrollbar-width: none; /* Hide scrollbar in firefox */
+	z-index: 1;
 }
 
 #sticat::-webkit-scrollbar {
@@ -44,18 +52,19 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 #sticat a {
 	text-decoration: none;
-	color: hsl(0, 0%, 21%);
+	color: hsl(0, 0%, 29%);
 	margin: 0 0.24rem 0 0.24rem;
-	font-weight: 276;
+	font-weight: 300;
 }
 
-#sticat a:hover {
-	font-weight: 330;
+.custom-logo img {
+	height: 3rem !important;
+	width: auto;
 }
 
 .custom-logo-link {
-	max-height: 3.0rem;
-	padding: 0.15rem 0.15rem 0 0.15rem;
+	max-height: 3.0rem !important;
+	padding: 0.24rem;
 }
 
 .custom-logo-link img {
@@ -77,4 +86,137 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 .menu-item a {
 	text-decoration: none;
 	color: #4a4a4a;
+}
+
+main {
+	padding-top: 3.3rem !important;
+}
+
+/**
+ * Entry Styles
+ **/
+
+.lmm-br {
+	border-radius: 4.2px !important;
+}
+
+
+.entry-content {
+	overflow-x: hidden;
+}
+
+.entry-content p {
+	padding: 1% 2% 1% 2%;
+}
+
+.entry-content img {
+	margin-left: -3.3%;
+	margin-right: 12%;
+	min-width: 108% !important;
+}
+
+.post-thumbnail img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.card-header {
+	box-shadow: none !important;
+}
+
+.post-topnav {
+	border-top: solid 0.06rem hsl(0, 0%, 94%); 
+	border-top-left-radius: 0.24rem;
+}
+
+.widget-area a {
+	text-decoration: none; 
+	color:hsl(0, 0%, 24%) !important;
+}
+
+.widget-area li {
+	text-decoration: none;
+	border-top:1px solid #ededed;
+	align-items:stretch;
+	display:flex;
+	border-radius: 0.24rem;
+	color:rgba(0,0,0,.69);
+	padding: 0.42rem;
+}
+
+.widget-area ul {
+	border-radius: 0.24rem;
+	box-shadow:0 .33em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+	font-size:1rem;
+	margin-bottom: 1.5rem;
+	font-weight: 300;
+}
+
+.lsb {
+	display:none;
+}
+
+.catpro {
+	width: 4.2rem;
+	height: 4.2rem;
+	border-radius: 50%;
+	border: solid 2px hsl(0, 0%, 69%);
+	box-shadow:0 .33em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+}
+
+.hashtags a {
+	text-decoration: none;
+	color: hsl(204, 86%, 53%);
+}
+
+.archive-header {
+	margin: 3.25rem 0 -3.25rem 0;
+}
+
+#lmm-comment {
+	top: 3.25rem;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	overflow-wrap: wrap;
+	background-color: #fff;
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.rsb {
+		height: 100% !important;
+		overflow-y: auto;
+		position: fixed;
+		-webkit-overflow-scrolling: touch; /* Hide scrollbar */
+		-ms-overflow-style: -ms-autohiding-scrollbar; /* Hide scrollbar in IE */
+		scrollbar-width: none; /* Hide scrollbar in firefox */
+		z-index: 1;
+	}
+	.rsb::-webkit-scrollbar {
+		display: none; /* Hide scrollbar */
+	}
+	.lsb {
+		height: 100% !important;
+		overflow-y: auto; 
+		width: 24%;
+		display: block;
+		position: fixed; 
+	}
+	.lsb a {
+		text-decoration: none;
+		border-bottom:1px solid #ededed;
+		align-items:stretch;
+		display:flex;
+		border-radius: 0.24rem;
+		color:rgba(0,0,0,.69);
+		padding: 0.42rem 0.42rem 0.42rem 1.5rem;
+	}
+	.lsb a:before {
+		content: "» ";
+	  }
+	.lsb a:after{
+		content: "« ";
+	  }
 }
